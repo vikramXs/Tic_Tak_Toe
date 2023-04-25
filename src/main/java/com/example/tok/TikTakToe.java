@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class TikTakToe extends Application {
+public class TicTakToe extends Application {
 
     private Button buttons[][] = new Button[3][3];
     private Label playerXScoreLable, playerOScoreLable;
