@@ -25,7 +25,7 @@ public class TikTakToe extends Application {
         BorderPane root = new BorderPane();
 
         //Title
-        Label titleLable = new Label("Tik Tak Toe");
+        Label titleLable = new Label("Tic Tak Toe");
         titleLable.setStyle("-fx-font-size: 35pt; -fx-font-weight: bold;");
         root.setTop(titleLable);
         BorderPane.setAlignment(titleLable, Pos.CENTER);
@@ -193,7 +193,7 @@ public class TikTakToe extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         Scene scene = new Scene(createContent());
-        stage.setTitle("Tik Tak Toe");
+        stage.setTitle("Tic Tak Toe");
         stage.setScene(scene);
         stage.show();
     }
